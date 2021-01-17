@@ -8,8 +8,7 @@ PRODUCT_COPY_FILES += \
 
 # Stock Modules
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/rootdir/lib/modules/autotst.ko:root/lib/modules/autotst.ko \
-    $(DEVICE_PATH)/rootdir/lib/modules/gator.ko:root/lib/modules/gator.ko \
-    $(DEVICE_PATH)/rootdir/lib/modules/mmc_test.ko:root/lib/modules/mmc_test.ko \
-    $(DEVICE_PATH)/rootdir/lib/modules/sprdwl.ko:root/lib/modules/sprdwl.ko \
-    $(DEVICE_PATH)/rootdir/lib/modules/trout_fm.ko:root/lib/modules/trout_fm.ko
+    $(DEVICE_PATH)/rootdir/lib/modules/mali.ko:root/lib/modules/mali.ko \
+    $(DEVICE_PATH)/rootdir/lib/modules/marlin2_fm.ko:root/lib/modules/marlin2_fm.ko \
+    $(DEVICE_PATH)/rootdir/lib/modules/mtty.ko:root/lib/modules/mtty.ko \
+    $(DEVICE_PATH)/rootdir/lib/modules/sprdwl_ng.ko:root/lib/modules/sprdwl_ng.ko \
