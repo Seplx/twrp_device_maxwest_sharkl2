@@ -1,5 +1,5 @@
 # Folder path
-DEVICE_PATH := device/intex/lifeIII
+DEVICE_PATH := device/maxwest/sharkl2
 
 # Ramdisk
 PRODUCT_COPY_FILES += \

@@ -21,15 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := lifeIII
+PRODUCT_RELEASE_NAME := sharkl2
 
 # Device identifier. This must come after all inclusions
-TARGET_DEVICE : lifeIII
-PRODUCT_DEVICE := lifeIII
-PRODUCT_NAME := omni_lifeIII
-PRODUCT_BRAND := Intex
-PRODUCT_MODEL := lifeIII
-PRODUCT_MANUFACTURER := Intex
+TARGET_DEVICE : sharkl2
+PRODUCT_DEVICE := sharkl2
+PRODUCT_NAME := omni_sharkl2
+PRODUCT_BRAND := Mexwest
+PRODUCT_MODEL := sharkl2
+PRODUCT_MANUFACTURER := Mexwest
 
 # Available languages
 PRODUCT_LOCALES := en_US en_GB ru_RU uk_UA tr_TR sk_SK vi_VN fr_FR ar_EG

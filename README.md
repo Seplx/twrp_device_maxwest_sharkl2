@@ -1,4 +1,4 @@
-#Intex Aqua LifeIII
+#Intex Maxwest Gravity Go 5
 
 chipset - Spreadtrum sp7731/sc8830
 
@@ -6,6 +6,6 @@ chipset - Spreadtrum sp7731/sc8830
 
 To compile android-8.1 based TWRP
 
-breakfast lifeIII
+breakfast sharkl2
 
 mka adbd recoveryimage
