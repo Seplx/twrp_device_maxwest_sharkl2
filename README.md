@@ -1,4 +1,4 @@
-#Intex Maxwest Gravity Go 5
+# Maxwest Gravity Go 5
 
 chipset - Spreadtrum SC9850KA
 
