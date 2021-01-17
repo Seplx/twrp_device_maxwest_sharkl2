@@ -1,6 +1,6 @@
 #Intex Maxwest Gravity Go 5
 
-chipset - Spreadtrum sp7731/sc8830
+chipset - Spreadtrum SC9850KA
 
 ==============
 
