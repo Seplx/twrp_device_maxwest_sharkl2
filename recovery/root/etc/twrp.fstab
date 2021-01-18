@@ -1,0 +1,15 @@
+/system          ext4              /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/system
+/system_image    emmc              /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/system
+/vendor          ext4              /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vendor                                   flags=wipeingui;display="Vendor"
+/vendor_image    emmc              /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vendor
+/data            ext4              /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata                                 flags=length=-16384
+/cache           ext4              /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/cache
+/persist         ext4              /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/persist                                  flags=backup=1;display="Persist"
+/boot            emmc              /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/boot
+/recovery        emmc              /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/recovery                                 flags=backup=1
+/misc            emmc              /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/misc
+
+/external_sd     vfat              /dev/block/platform/soc/soc:ap-ahb/20300000.sdio/mmcblk1p1                                        flags=removable;storage;wipeingui;display="Micro SDCard"
+
+#TODO: usb otg could be broken
+/usb-otg         vfat              /dev/block/sda1      /dev/block/sda                                                               flags=removable;storage;wipeingui;display="USB OTG"
