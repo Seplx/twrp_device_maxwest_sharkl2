@@ -56,6 +56,9 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 
 PRODUCT_COPY_FILES += $(TARGET_PREBUILT_KERNEL):kernel
 
+# system.prop
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+
 # Recovery
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 
